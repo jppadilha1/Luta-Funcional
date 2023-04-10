@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+* {
+    margin: 0;
+    box-sizing: 0;
+}
+
+body {
+    text-align: center;
+    background-image: url("https://blog.bodog.com/wp-content/uploads/2020/10/octogono-ufc.jpg");
+    background-size: cover;
+}
+
+.content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.stage {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #000;
+    margin-top: 32px;
+    width: 900px;
+    height: 480px;
+    border-radius: 12px;
+}
+
+h1 {
+    text-align: center;
+    margin-top: 22px;
+    font-size: 32px;
+    font-weight: bold;
+    font-family: 'Bebas Neue';
+    color: brown;
+}
+
+#brother1,#brother2 {
+    width: 250px;
+    height: 380px;
+    background-color: #666;
+    margin: 20px;
+    border-radius: 8px;
+}
+
+.stage .vs {
+    font-size: 32px;
+    color: #eee;
+    font-weight: bolder;
+}
+
+.life_bar {
+    margin: 10px;
+    height: 10px;
+    border: 1px solid #444;
+    border-radius: 4px;
+}
+
+.life_bar .bar {
+    height: inherit;
+    background-color: #f00;
+    border-radius: 2px;
+    transition: 1s;
+}
+
+body .content2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.log {
+    border: 4px dashed #000;
+    height: 200px;
+    width: 600px;
+    margin-top: 10px;
+    overflow-y: scroll;
+    color: #000;
+    list-style: none;
+    font-size: 24px;
+    backdrop-filter: blur(15px);
+}
+
+.reload:hover {
+    font-size: 26px;
+}
+
+.reload {
+    cursor: pointer;
+    color: #000;
+    font-weight: bold;
+    font-size: 24px;
+}
+
+.attackButton {
+    margin-top: 20px;
+    font-weight: bold;
+    border: 1px solid #eee;
+    color: #000;
+    background-color: #eee;
+    border-radius: 8px;
+    width: 100px;
+    height: 32px;
+}
+
+.attackButton:hover {
+    cursor: pointer;
+    color: #eee;
+    background-color: #000;
+    border: 1px solid #000;
+}
