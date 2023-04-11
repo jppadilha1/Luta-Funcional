@@ -12,6 +12,13 @@ body {
 }
 
 .content {
+    display: none;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.menu {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -35,6 +42,21 @@ h1 {
     font-weight: bold;
     font-family: 'Bebas Neue';
     color: brown;
+}
+
+
+.menu .select span {
+    color: brown;
+    font-size: 28px;
+    margin-bottom: 8px;
+    font-family: 'Bebas Neue';
+}
+
+.menu .select li {
+    color: #eee;
+    font-size: 21px;
+    margin-top: 10px;
+    list-style: none;
 }
 
 #brother1,#brother2 {
@@ -85,10 +107,24 @@ body .content2{
 }
 
 .reload:hover {
-    font-size: 26px;
+    color: #f00;
+    transition-delay: 0.1s;
 }
 
 .reload {
+    display: none;
+    cursor: pointer;
+    color: #000;
+    font-weight: bold;
+    font-size: 24px;
+}
+
+.start:hover {
+    color: #f00;
+    transition-delay: 0.1s;
+}
+
+.start {
     cursor: pointer;
     color: #000;
     font-weight: bold;
