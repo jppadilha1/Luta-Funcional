@@ -30,7 +30,7 @@ body {
     justify-content: space-around;
     background-color: #000;
     margin-top: 32px;
-    width: 900px;
+    width: 1000px;
     height: 480px;
     border-radius: 12px;
 }
@@ -45,25 +45,51 @@ h1 {
 }
 
 
-.menu .select span {
+.menu .select1 span {
     color: brown;
     font-size: 28px;
     margin-bottom: 8px;
     font-family: 'Bebas Neue';
 }
 
-.menu .select li {
+.menu .select1 {
+    margin-right: 22px;
+}
+
+.menu .select1 li {
     color: #eee;
     font-size: 21px;
     margin-top: 10px;
     list-style: none;
 }
 
+.menu .select2 span {
+    color: brown;
+    font-size: 28px;
+    margin-bottom: 8px;
+    font-family: 'Bebas Neue';
+}
+
+.menu .select2 li {
+    color: #eee;
+    font-size: 21px;
+    margin-top: 10px;
+    list-style: none;
+}
+
+.menu .select2 {
+    margin-right: 22px;
+}
+
+#younger:hover, #middle:hover, #older:hover {
+    cursor: pointer;
+    color: #f00;
+}
+
 #brother1,#brother2 {
     width: 250px;
     height: 380px;
     background-color: #666;
-    margin: 20px;
     border-radius: 8px;
 }
 
@@ -71,6 +97,7 @@ h1 {
     font-size: 32px;
     color: #eee;
     font-weight: bolder;
+    margin: 16px;
 }
 
 .life_bar {
@@ -91,6 +118,13 @@ body .content2{
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+.card1 img, .card2 img {
+    width: 220px;
+    height: 200px;
+    margin-top: 32px;
+    box-shadow: 1px 1px 8px #000;
 }
 
 
