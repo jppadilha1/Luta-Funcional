@@ -120,7 +120,7 @@ body .content2{
     justify-content: center;
 }
 
-.card1 img, .card2 img {
+.card1, .card2 {
     width: 220px;
     height: 200px;
     margin-top: 32px;
