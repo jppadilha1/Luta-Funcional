@@ -17,3 +17,5 @@ O projeto foi desenvolvido a partir das tecnologias:
 - Menu para escolher qual personagem
 - Opção de jogar novamente
 - Vizualização do personagem
+
+https://jppadilha1.github.io/Luta-Funcional/
