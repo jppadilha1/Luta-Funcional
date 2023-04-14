@@ -120,13 +120,12 @@ body .content2{
     justify-content: center;
 }
 
-.card1, .card2 {
+.card1, .card2, .card11, .card22 {
     width: 220px;
     height: 200px;
     margin-top: 32px;
     box-shadow: 1px 1px 8px #000;
 }
-
 
 .log {
     border: 4px dashed #000;

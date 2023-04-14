@@ -13,29 +13,35 @@ select2.querySelector('#younger').addEventListener('click',() => getPlayers(sele
 
 
 function getPlayers(Player,bro) {
-    let card1 = document.querySelector('.card1');
-    let card2 = document.querySelector('.card2');
+    var card1 = document.querySelector("#brother1 .card1");
+    var card2 = document.querySelector("#brother2 .card2");
     if (Player == "select1" && bro == "older") {
-        card1.src = 'style/img/old.jpg';
-        return p1 = olderBrother();
+        document.querySelector('.card11').src = 'style/img/old.jpg';
+        return card1.src = 'style/img/old.jpg',
+        p1 = olderBrother();
     }
     else if (Player == "select1" && bro == "middle") {
+        document.querySelector('.card11').src = 'style/img/middle.jpg';
         card1.src = 'style/img/middle.jpg';
         return p1 = middleBrother();
     }
     else if ( Player == "select1" && bro == "young") {
+        document.querySelector('.card11').src = 'style/img/young.jpg';
         card1.src = 'style/img/young.jpg';
         return p1 = youngerBrother();
     }
     else if (Player == "select2" && bro == "older") {
+        document.querySelector('.card22').src = 'style/img/old.jpg';
         card2.src = 'style/img/old.jpg';
         return p2 = olderBrother();
     }
     else if (Player == "select2" && bro == "middle") {
+        document.querySelector('.card22').src = 'style/img/middle.jpg';
         card2.src = 'style/img/middle.jpg';
         return p2 = middleBrother();
     }
     else if ( Player == "select2" && bro == "young") {
+        document.querySelector('.card22').src = 'style/img/young.jpg';
         card2.src = 'style/img/young.jpg';
         return p2 = youngerBrother();
     }
